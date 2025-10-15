@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
-import LoginCard from './components/LoginCard'
+import "./App.css";
+import LoginCard from "./components/LoginCard";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -30,8 +30,12 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-    <LoginCard/>
-  )
+    <div className="min-h-screen">
+      <div className="">
+        <LoginCard />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

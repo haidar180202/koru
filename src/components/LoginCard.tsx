@@ -1,8 +1,8 @@
-import React from "react";
 
 export default function LoginCard(){
   return (
-    <div className="bg-white/5 backdrop-blur-md border border-white/8 rounded-xl p-6">
+    <div className="flex items-center justify-center h-screen bg-gray-500">
+    <div className="bg-white backdrop-blur-md border border-white/8 rounded-xl p-6 w-xl">
       <div className="flex flex-col items-center gap-3">
         <div className="w-14 h-14 rounded-full bg-emerald-700 flex items-center justify-center font-bold">K</div>
         <h3 className="text-lg font-semibold">Welcome to Koru (Copy)</h3>
@@ -25,5 +25,7 @@ export default function LoginCard(){
         </div>
       </div>
     </div>
+    </div>
+
   );
 }
