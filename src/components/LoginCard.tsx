@@ -23,7 +23,7 @@ export default function LoginCard(){
           <input className="w-full mt-1 px-3 py-3 rounded-md bg-black/30 border border-white/6" type="password" placeholder="••••••••" />
         </div>
 
-        <button className="mt-12 w-full bg-koruGreen text-white py-3 font-semibold border-1 bg-blue-950 rounded-md ">Sign in</button>
+        <button className="mt-4 w-full bg-koruGreen text-white py-3 font-semibold border-1 bg-blue-950 rounded-md ">Sign in</button>
 
         <div className="text-xs text-white/60 flex justify-between w-full mt-2">
           <button className="underline">Forgot password?</button>
