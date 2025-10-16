@@ -9,7 +9,7 @@ export default function LoginCard(){
         {/* <div className="w-14 h-14 rounded-full bg-emerald-700 flex items-center justify-center font-bold">K</div> */}
         <img src={koru} alt="logo koru" className="w-25  rounded-full flex items-center justify-center font-bold"/>
         <h2 className="text-4xl font-semibold mt-6 text-center">Welcome to Koru (Copy)</h2>
-        <p className="text-xs text-white/60">Sign in to continue</p>
+        <p className="text-md text-gray-700 dark:text-gray-500 mb-2">Sign in to continue</p>
 
         <button className="mt-2 w-full bg-white border-1 py-3 text-black rounded-md flex items-center justify-center">
           <FcGoogle className="me-3"/>
@@ -17,9 +17,9 @@ export default function LoginCard(){
         </button>
 
         <div className="w-full mt-2">
-          <label className="text-xs text-white/60">Email</label>
+          <label className="text-md text-center text-gray-700 block mb-4">Email</label>
           <input className="w-full mt-1 px-3 py-3 rounded-md bg-black/30 border border-white/6" placeholder="you@example.com" />
-          <label className="text-xs text-white/60 mt-2 block">Password</label>
+          <label className="text-md text-center text-gray-700 block mb-4 mt-4">Password</label>
           <input className="w-full mt-1 px-3 py-3 rounded-md bg-black/30 border border-white/6" type="password" placeholder="••••••••" />
         </div>
 
